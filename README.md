@@ -27,7 +27,7 @@ This repository contains two beginner-friendly GUI applications built using Pyth
   - **Help**: Shows a message box
 - Status bar with live word count
 - Vertical scrollbar
-- Custom `.ico` icon included
+- Custom `.ico` icon can be included
 
 📂 [View Notepad Code](./notepad)
 
