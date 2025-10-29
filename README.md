@@ -37,7 +37,7 @@ This repository contains two beginner-friendly GUI applications built using Pyth
 
 ```bash
 # Clone the repo
-git clone https://github.com/yourusername/Tkinter-GUI-Apps.git
+git clone https://github.com/Prithujit-Ghosh/Tkinter-GUI-Apps.git
 
 # Run calculator
 python calculator/calculator.py
