@@ -26,6 +26,9 @@ def openFile():
         TextArea.delete(1.0,END)
         f = open(file, "r")
         TextArea.insert(1.0, f.read())
+        text=TextArea.get(1.0,END)
+        status_var.set("Word Count: "+str(len(re.findall(r"\b[\w'-]+\b",text))))
+        statusbar_label.update()
         f.close()
 
 def saveFile():
